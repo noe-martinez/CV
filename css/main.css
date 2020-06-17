@@ -1,0 +1,627 @@
+body{
+    background-color: peachpuff;
+    }
+
+#wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.home{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    }
+
+.volver{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.volver li{
+    display: flex;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    background-color: silver;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px
+}
+
+.volver li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.intro{
+    border-bottom: 3px solid white;
+    padding: 85px;
+    width: 60%;
+    margin-left: 70px;
+}
+
+.home img{
+    float: left;
+    margin: 50px;
+    border: 8px solid white;
+    border-style: double;
+
+}
+
+.inner header h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    float: right;
+    margin-right: 150px;
+    padding: 10px;
+   
+}
+
+.inner header p{
+    font-size: 22px;
+    float: right;
+    padding: 15px;
+
+}
+
+.inner nav{
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.inner ul{
+    display: flex;
+}
+
+.inner li{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.inner nav a{
+    text-decoration: none;
+    display: flex;
+    background-color: silver;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 50px;
+    color: white;
+    font-size: 20px;
+    transition:background .5s, color .5s;
+}
+
+.inner a:hover{
+    background-color:black;
+    color: peachpuff;
+}
+
+.datos{
+    background-color: silver;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.datos h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    float: left;
+    margin: 15px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.datos nav{
+    display: flex;
+    justify-content: center;
+    float: right;
+    margin-top: 3px;
+}
+
+.iconos{
+    margin-right: 0px;
+    display: flex;
+}
+
+.datos ul{
+    display: flex;
+    
+}
+
+.datos li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 10px;
+   
+}
+
+.datos nav a{
+    text-decoration: none;
+    display: flex;   
+    transition: .4s all;
+}
+
+.datos a:hover{
+    transform: rotate(360deg);
+}
+
+.datos .button{
+    margin: 50px;
+    float: left;
+    margin-left: 250px;
+    margin-top: 150px;
+    width: 100px;
+}
+
+@media screen and (max-width: 400px){
+    #wrapper{
+        width: 100%;
+        justify-content: center;
+    }
+    .home{
+        width: 100%;
+        display: flex;
+    }
+    .home img{
+        border-radius: 200px;
+        height: 20%;
+        display: flex;
+        margin: 20px;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .inner {
+        display: flex;
+    }
+    .inner header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+    .inner header h2{
+        justify-content: center;
+        display: flex;
+        margin-top: 120%;
+        width: max-content;
+        padding: 2%;
+        float: none;
+        margin-right: 0%;
+    }
+
+    .inner header p{
+        float: none;
+        padding: 0%;
+    }
+
+    .intro{
+        padding: 10%;
+        border-bottom: none;
+        margin-left: 0%;
+        width: 100%;
+    }
+    .datos{
+        border-radius: 0em;
+        justify-content: center;
+    }
+
+    .datos h3{
+        display: none;
+    }
+    .datos nav{
+        float: none;
+        margin: auto;
+    }
+    .datos li{
+        margin-left: 0em;
+    }
+    
+    .datos .button{
+        margin: 0 auto;
+        margin-top: 20%;
+        direction: rtl;
+        float: right;
+    }
+
+    .datos .button img{
+        width: 120px;
+    }
+    
+}
+
+
+
+
+
+
+.home1{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    }
+
+.inner1 header h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    float: right;
+    margin-right: 150px;
+    padding: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    color: white;
+}
+
+.inner1 header h2::before{
+    content: "";
+    position: absolute;
+    width: 750px;
+    height: 3px;
+    background-color: white;
+    top: 0.8em;
+    margin-left: -780px;
+
+}
+
+.intro1 img{
+    border: 6px solid silver;
+    border-style: double;
+    padding: 10px;
+    float: left;
+    width: 90%;
+    margin: 40px;
+    
+}
+
+.intro1 p{
+    display: flex;
+    float: left;
+    background-color: silver;
+    border-radius: 15px;
+    color: white;
+    font-size: 24px;
+    text-align: justify;
+    width: 80%;
+    margin: 30px;
+    padding: 20px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+}
+.trabajos{
+    width: 100%;
+    display: flex;
+    }
+
+.marca{
+    float: left;
+    background-color: silver;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    
+}
+
+.marca h2{
+    font-family: 'Dancing Script', cursive; 
+    font-size: 40px;
+    text-align: left;
+    margin: 15px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+.marca p{
+    margin-left: 10px;
+    padding: 10px;
+    border: 3px solid white;
+    border-style: double;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.tarjetas{
+    float: right;
+    background-color: silver;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+
+}
+
+.tarjetas h2{
+    font-family: 'Dancing Script', cursive; 
+    font-size: 40px;
+    text-align: left;
+    margin: 15px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+.tarjetas p{
+    margin-left: 10px;
+    padding: 10px;
+    border: 3px solid white;
+    border-style: double;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+ .tarjetas figure{
+     padding-right: 30px;
+
+}
+
+.dato{
+    background-color: white;
+    margin: 25px;
+    height: 70px;
+    border: 3px solid silver;
+    border-style: double;
+    border-radius: 15px;
+
+}
+
+.dato h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    float: left;
+    margin: 15px;
+    margin-left: 50px;
+    display: flex;
+    color: silver;
+    
+}
+
+.icono li{
+    display: flex;
+    float: right;
+    margin-top: 3px;
+}
+
+.icono li a{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 60px;
+    margin-top: -5px;
+    transition: .4s all;
+}
+
+.icono a:hover{
+    transform: rotate(360deg);
+}
+
+.volver li a{
+    transition:background .5s, color .5s;
+
+}
+
+.volver a:hover{
+    background-color:black;
+    color: peachpuff;
+    
+}
+
+
+
+.home2{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    }
+
+.inner2 header .título{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    float: right;
+    margin-right: 150px;
+    padding: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    color: white;
+
+}
+
+.inner2 header .título::before{
+    content: "";
+    position: absolute;
+    width: 750px;
+    height: 3px;
+    background-color: white;
+    top: 0.8em;
+    margin-left: -780px;
+
+}
+
+
+
+
+.intro2 img{
+    border: 6px solid white;
+    border-style: double;
+    padding: 10px;
+    float: left;
+    width: 85%;
+    height: 60%;
+    margin-left: 80px;
+    position: relative;
+    object-fit: none;
+    margin-top: 40px;
+    }
+
+.intro2 p{
+    display: flex;
+    float: left;
+    background-color: silver;
+    border-radius: 15px;
+    color: white;
+    font-size: 24px;
+    text-align: justify;
+    width: 45%;
+    margin: 40px;
+    padding: 20px;
+    margin-left: 105px;
+    margin-bottom: 5px;
+    margin-top: 50px;
+  
+}
+
+.intro2 .sub-título{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 210px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    transition: initial;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    
+}
+
+
+.intro2 .sub-título:hover{
+    transform: scale(1.3)
+
+}
+
+    
+
+.información img{
+    border: 6px solid silver;
+    border-style: double;
+    padding: 10px;
+    float: right;
+    width: 380px;
+    height: 500px;
+    position: relative;
+    margin-right: 80px;
+    margin-top: 50px;
+
+}
+
+.información p{
+    display: flex;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+    color: silver;
+    font-size: 24px;
+    text-align: justify;
+    width: 45%;
+    margin: 40px;
+    padding: 20px;
+    margin-left: 105px;
+    margin-bottom: 5px;
+    margin-top: 100px;
+
+}
+
+
+
+.form-header h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: white;
+    display: inline-block;
+    position: relative;
+}
+
+h1::before{
+    content: "";
+    position: absolute;
+    width: 650px;
+    height: 3px;
+    background-color: white;
+    top: 1.5em;
+
+}
+
+.contenedor .form{
+    background: rgba(0, 0, 0, .4);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 25px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 6px;
+
+}
+
+.contenedor .form .form-label{
+    display: block;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.contenedor .form .form-input, .form-textarea{
+    background: rgba(255, 218, 185, 0.8);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 98%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    font-size: 15px;
+
+}
+
+.contenedor .form .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+
+}
+
+.contenedor .form .btn-submit{
+    width: 100%;
+    outline: none;
+    background: silver;
+    font-size: 20px;
+    border: none;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .6s ease;
+
+}
+
+.contenedor .form .btn-submit:hover{
+    background-color: white;
+    
+}
+
+.button1{
+    margin: 30px;
+    margin-top: 50px;
+    width: 100px;
+    margin-right: 610px;
+    margin-left: auto;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
